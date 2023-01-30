@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # import our Random class from python/Random.py file
 sys.path.append(".")
-from python.MySort import MySort
+from MySort import MySort
 
 # main function for our CookieAnalysis Python code
 if __name__ == "__main__":
