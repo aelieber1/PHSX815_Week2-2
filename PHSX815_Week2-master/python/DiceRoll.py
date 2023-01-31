@@ -126,13 +126,3 @@ if __name__ == "__main__":
 
     # show figure (program only ends once closed
     plt.show()
-    
-    plt.hist(arr, bins=50, density=True, color='lightblue', ec='C0', orientation='vertical', alpha=0.75)
-
-    # Formatting the plot
-    plt.xlabel('x', color='C0', fontsize=15)
-    plt.ylabel('Probability', color='C0', fontsize=15)
-    plt.title('Uniform Random Number', color='C0', fontsize=10)
-    plt.grid(True)
-    
-    plt.show()
