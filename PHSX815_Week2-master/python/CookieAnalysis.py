@@ -60,9 +60,9 @@ if __name__ == "__main__":
     Sorter = MySort()
 
     times = Sorter.DefaultSort(times)
-    #times_avg = Sorter.DefaultSort(times_avg)
+    times_avg = Sorter.DefaultSort(times_avg)
     # try some other methods! see how long they take
-    times_avg = Sorter.BubbleSort(times_avg)
+    # times_avg = Sorter.BubbleSort(times_avg)
     # times_avg = Sorter.InsertionSort(times_avg)
     # times_avg = Sorter.QuickSort(times_avg)
     
@@ -75,12 +75,6 @@ if __name__ == "__main__":
     print("Q1 quantile of times : ", np.quantile(times, .25))
     print("Q2 quantile of times : ", np.quantile(times, .50))
     print("Q3 quantile of times : ", np.quantile(times, .75))
-    
-    # Quantiles of Times_avg array
-    print("times_avg : ", times_avg)
-    print("Q1 quantile of times_avg : ", np.quantile(times_avg, .25))
-    print("Q2 quantile of times_avg : ", np.quantile(times_avg, .50))
-    print("Q3 quantile of times_avg : ", np.quantile(times_avg, .75))
 
     # ADD YOUR CODE TO PLOT times AND times_avg HERE
     
